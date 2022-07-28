@@ -1,0 +1,696 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+    }
+    .main{ 
+        margin-top: 40px;
+        height: 100px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    /* navar */
+    .navbar-1{
+    background-color: #131A22;
+    width:100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+    body {
+        overflow-y: scroll; /* Show vertical scrollbar */
+        /* overflow-x: scroll; Show horizontal scrollbar */
+      }
+    /* menu-1 */
+    .menu-1{
+        width:129px;
+        height:50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font: 14px "Amazon Ember",Arial,sans-serif;
+        background-color:#131A22 ;
+        /* position: relative;
+        left:10px; */
+        /* margin-left:10px; */
+    }
+    .menu-1:hover{
+        width:129px;
+        height:50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border:1px solid #FFFFFF;
+        border-radius: 2px;
+        background-color:#131A22 ;
+        font: 14px "Amazon Ember",Arial,sans-serif;
+        /* position: relative;
+        left:10px; */
+        /* margin-left:10px; */
+    }
+
+    /* menu2 */
+
+    .menu-2{
+        display: flex;
+        /* position: relative; */
+        align-items: center;
+        /* left:20px; */
+        /* margin-left:20px; */
+        height: 50px;
+        width: 170px;
+       background-color:#131A22;
+      
+    }
+    .menu-2:hover{
+        display: flex;
+        /* position: relative; */
+        align-items: center;
+        /* margin-left:20px; */
+        /* left:20px; */
+        height: 50px;
+        width: 170px;
+       background-color:#131A22;
+       outline: 1px solid #FFFFFF;
+       border-radius: 2px;
+    }
+   
+    .address{
+        height: 50px;
+        width: 166px;
+        display: flex;
+        position: relative;
+        align-items: center;
+        left:5px; 
+    }
+  
+    .navchild{
+        position: relative;
+        top:10px;
+    }
+    .navchild2 p,h4{
+        color: #FFFFFF;
+        font: 14px "Amazon Ember",Arial,sans-serif;
+    }
+    .navchild2 p{
+        font-size:12px;
+    }
+    .navchild2 h4{
+        font-weight: bold;
+    }
+    /* menu-3 */
+    .menu-3{
+        display: flex;
+        align-items: center;
+        /* position: relative;
+        left:40px; */
+    }
+    .searchbar-1{
+    height:40px;
+    width:55px;
+    background-color: #dfdbdb;
+    text-align: center;
+    color:#0F1111;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    border-top-left-radius:4px;
+    border-bottom-left-radius: 4px;
+    }
+    .searchbar-1:hover{
+        height:40px;
+        width:55px;
+        background-color: #cecaca;
+        text-align: center;
+        color:#0F1111;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font: 14px "Amazon Ember",Arial,sans-serif;
+        border-top-left-radius:4px;
+        border-bottom-left-radius: 4px;
+        }
+
+    .arr{
+        margin-left: 5px;
+    }
+    .searchbar-2 input{
+        width:552.3px;
+        height:40px;
+        background-color: #FFFFFF;
+        border:none;
+        
+    }
+    .searchbar-2 input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
+    .searchbar-3 button{
+        width: 45px;
+        height: 40px;
+        background-color: hsl(34, 87%, 65%);
+        border-top-right-radius:4px;
+        border-bottom-right-radius: 4px;
+        border:none;
+    }
+    /* menu-4 */
+    .menu-4
+    {
+        width:55px;
+        height:50px;
+        /* position: relative;
+        left: 50px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-4:hover
+    {
+        border:1px solid #FFFFFF;
+        width:55px;
+        height:50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2px;
+    }
+    .coun{
+        color:#d6d6d6;;
+        /* margin-left:5px; */
+        position:relative;
+        top:5px;  
+    }
+    /* menu-5 */
+    .menu-5{
+        width:131.53px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* position: relative;
+        left:50px; */
+    }
+    .menu-5:hover{
+        width:131.53px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* position: relative;
+        left:50px; */
+        border:1px solid #FFFFFF;
+        border-radius: 2px;
+    }
+    .signchild-1{
+        font: 12px "Amazon Ember",Arial,sans-serif;
+        color:#FFFFFF;
+        position: relative;
+        right:18px;
+    }
+    .signchild-2 {
+        font: 12px "Amazon Ember",Arial,sans-serif;
+        color:#FFFFFF;
+        font-weight: bold;
+        
+        
+    }
+   .sign{
+       margin-left: 5px;
+       color: #d6d6d6;
+   }
+
+   /* .menu-6 */
+   .menu-6{
+       width:77px;
+       height:50px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       /* position: relative;
+       left:55px; */
+   }
+   .menu-6:hover{
+    width:76.95;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative;
+    left:55px; */
+    border:1px solid #FFFFFF;
+    border-radius: 2px;
+}
+   .order p,h4{
+    color: #FFFFFF;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+}
+.order p{
+    font-size:12px;
+}
+.order h4{
+    font-weight: bold;
+}
+  
+/* menu-7 */
+.menu-7{
+    width:84px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131A22;
+    /* position: relative;
+    left:60px; */
+}
+ 
+.menu-7:hover{
+    width:84px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131A22;
+    /* position: relative;
+    left:60px; */
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+    
+/* header start here */
+.navigation{
+    height:39px;
+    width:100%;
+    background-color: #232F3E;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navigation-1{
+    width:58px;
+    height:28px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    /* justify-content: center; */
+    font: 12px "Amazon Ember",Arial,sans-serif;
+    font-weight: bold;
+}
+.navigation-1:hover{
+    width:58px;
+    height:28px;
+    outline: 1px solid #FFFFFF;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    /* justify-content: center; */
+    font: 12px "Amazon Ember",Arial,sans-serif;
+    font-weight: bold;
+}
+.menutext{
+    margin-left:2px;
+}
+
+.navigation-2{
+    height:28px;
+    width:91px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+}
+.navigation-2:hover{
+    height:28px;
+    width: 91px;
+    outline: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    border-radius: 2px;
+}
+.navigation-3{
+    height:28px;
+    width:67px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+  
+}
+.navigation-3:hover{
+    height:28px;
+    width:67px;
+    outline: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    border-radius: 2px;
+}
+.navigation-4{
+    height:28px;
+    width:128px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+   
+}
+.navigation-4:hover{
+    height:28px;
+    width:128px;
+    outline: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    border-radius: 2px;
+}
+.navigation-5{
+    height:28px;
+    width:128px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+   
+}
+.navigation-5:hover{
+    height:28px;
+    width:128px;
+    outline: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    border-radius: 2px;
+}
+.navigation-6{
+    height:28px;
+    width:66px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+}
+.navigation-6:hover{
+    height:28px;
+    width:66px;
+    outline: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    border-radius: 2px;
+}
+.navigation-7{
+    height:28px;
+    width:102px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    
+}
+.navigation-7:hover{
+    height:28px;
+    width:102px;
+    outline: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    border-radius: 2px;
+}
+.navigation-8{
+    height:28px;
+    width:68px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+}
+.navigation-8:hover{
+    height:28px;
+    width:68px;
+    outline: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    border-radius: 2px;
+}
+.navigation-9{
+    height:28px;
+    width:121px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+}
+.navigation-9:hover{
+    height:28px;
+    width:121px;
+    outline: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    border-radius: 2px;
+}
+.navigation-10{
+    height:28px;
+    width:121px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+}
+.navigation-10:hover{
+    height:28px;
+    width:121px;
+    outline: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    border-radius: 2px;
+}
+.amazone:hover{
+    height:36px;
+    width:370px;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+
+
+/* titu sharma */
+
+.maincontainer{
+    width:100%;
+    /* height: 1000px; */
+    /* background-color: #cecaca;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-bottom: 1000px; */
+    /* margin-top:300px; */
+    
+}
+.item{
+    width:313px;
+    height: 430px;
+    /* color:#FFFFFF; */
+    background-color: #FFFFFF;
+    /* position: relative;
+    top:100px; */
+    /* margin-top:100px; */
+    /* left:50px; */
+    /* border:4px solid red; */
+    margin-top:260px;
+}
+.heading{height:55px;
+    width:272px;
+     /* position: relative; */
+      /* left:12px; */
+      margin-left:12px;
+    }
+.heading h2{
+    color: #0F1111;
+    max-height: 54.6px;
+    /* position: relative;
+    top:15px; */
+    margin-top:15px;
+    /* text-align: center; */
+    font: 21px "Amazon Ember",Arial,sans-serif;
+    font-weight: bold;
+
+    font-size: 21px!important;
+    line-height: 27.3px!important;
+
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  
+    width:313px;
+    height: 420px;
+}
+.image-1{
+    display: flex;
+    align-items: center;   
+    justify-content: space-evenly;
+   
+}
+
+.image-2{
+    display: flex;
+    align-items: center;   
+    justify-content: space-evenly;
+    margin-top:20px;
+    
+}
+.text{
+    font: 12px "Amazon Ember",Arial,sans-serif;
+    color:#0F1111;
+}
+.item-text{
+    font: 13px "Amazon Ember",Arial,sans-serif;
+}
+.item-text-mid{ font: 13px "Amazon Ember",Arial,sans-serif;}
+.card{
+    width:313px;
+    height: 430px;
+    /* color:#FFFFFF; */
+    /* background-color: #FFFFFF; */
+    /* position: relative;
+    top:100px; */
+    margin-top:260px;   /* left:50px; */
+    /* border:4px solid red; */
+
+}
+
+.cardbutton{
+   
+    font: 12px "Amazon Ember",Arial,sans-serif;
+    color:#0F1111;
+}  
+
+/* slider */
+.slide {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    /* overflow-x: hidden; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    
+    .slide1 {
+    background-image: url(
+    "https://m.media-amazon.com/images/I/61I9BDCUHKL._SX3000_.jpg");
+    }
+    .slide2 {
+    background-image: url(
+    "https://m.media-amazon.com/images/I/61AM55XPS-L._SX3000_.jpg");
+    }
+    .slide3 {
+    background-image: url(
+    "https://m.media-amazon.com/images/I/41QBwIQAaeL._SX3000_.jpg");
+    }
+    .arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    }
+    #arrow-left {
+    border-width: 20px 30px 20px 0;
+    /* border:100px solid red; */
+    border-color: transparent #fff transparent transparent;
+    left: 0;
+    margin-left: 20px;
+    }
+    
+    #arrow-right {
+    border-width: 20px 0 20px 30px;
+    border-color: transparent transparent transparent #fff;
+    right: 0;
+    margin-right: 20px;
+    }
+
+    .item-card{
+        width:313px;
+        height: 430px;
+        /* color:#FFFFFF; */
+        background-color: #FFFFFF;
+        /* position: relative;
+        top:100px; */
+        margin-top:100px;
+        /* left:50px; */
+        /* border:4px solid red; */
+        /* margin-top:-50px; */
+    }
